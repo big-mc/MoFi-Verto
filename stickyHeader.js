@@ -1,10 +1,10 @@
 window.onscroll = function() {stickyHeader()};
 
 var header = document.getElementById("navbar");
-console.log("hi");
+var sticky = header.offsetTop;
 
 function stickyHeader() {
-  if (window.pageYOffset > header.offsetTop) {
+  if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
