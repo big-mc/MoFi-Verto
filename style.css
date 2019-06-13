@@ -25,32 +25,32 @@ html, body{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  font-size: 72px;
 }
 
-#navbar {
+.navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #fff;
   box-shadow: 0px 10px 15px 10px #aaaaaa;
 }
 
-#navbar a {
+.navbar__copy {
+  margin: 0 auto;
+}
+
+.navbar__copy a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 16px 4px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
+  margin: 0 30px;
 }
 
-#navbar a:hover {
+.navbar__copy a:hover {
   background-color: #ddd;
-  color: black;
-}
-
-#navbar a.active {
-  background-color: #4CAF50;
-  color: white;
 }
 
 .content {
