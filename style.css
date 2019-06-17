@@ -8,6 +8,10 @@ html, body{
   width: 100%;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .cover {
   height: 70%;
   background-image: url("res/header_hq.jpg");
@@ -70,4 +74,9 @@ html, body{
 
 .sticky + .content {
   padding-top: 60px;
+}
+
+.main_p{
+  background-color: #555;
+  height: 200px;
 }
